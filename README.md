@@ -26,3 +26,5 @@ License: Apache 2.0 / GPL v2
 
 
 new credits comming to v1.5 there wont be a v1.4 or a v1.1
+
+if theres a bug like RIL or modem or your IMEI wont show anything or NFC doesnt work it was made on purpose and wont probably be fixed but the modem and IMEI part i dont know if you should worry about it but i got the same bug my EFS wasnt formatted its because GT-I18190N has a way different baseband/RIL/modem that the libs installed are from the gt-i18190 arent from the gt i 18190n
