@@ -23,3 +23,6 @@ Future:
 Tester: Me (solo)
 
 License: Apache 2.0 / GPL v2
+
+
+new credits comming to v1.5 there wont be a v1.4 or a v1.1
