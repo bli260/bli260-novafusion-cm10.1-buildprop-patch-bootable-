@@ -27,4 +27,53 @@ License: Apache 2.0 / GPL v2
 
 new credits comming to v1.5 there wont be a v1.4 or a v1.1
 
-if theres a bug like RIL or modem or your IMEI wont show anything or NFC doesnt work it was made on purpose and wont probably be fixed but the modem and IMEI part i dont know if you should worry about it but i got the same bug my EFS wasnt formatted its because GT-I18190N has a way different baseband/RIL/modem that the libs installed are from the gt-i18190 arent from the gt i 18190n
+# Bug notice
+
+### Recovery / Thanks
+- Phil3759 - PhilZ Touch Recovery (original)
+- Android-Andi @ XDA - PhilZ Touch for golden / S3 Mini port & kernel work
+- Novafusion - CM10.1 golden base
+
+# CM10.1 Golden V1.0 Alpha - GT-I8190N (VoIP Edition)
+
+**Device:** Samsung GT-I8190N (golden)  
+**Base ROM:** GT-I8190 CM10.1 by Novafusion  
+**Android:** 4.2.2 - CM10.1  
+
+### Build Info
+- Type: system folder mod (no kitchen rebuild)
+- Patch: build.prop only (I8190 -> I8190N)
+- Version: V1.0 Alpha Stable
+- No apps yet in V1.0
+
+### Concept - VoIP / WiFi-only
+**No telephony, No NFC - by design.**
+
+- No RIL / No baseband / No SIM
+- No NFC
+- Why? Porting takes too much time, focusing on WiFi stability
+- Calls via VoIP over WiFi (SIP) only
+- EFS SAFE, not formatted
+
+**Requirements:**
+- WiFi for everything
+- SIP account + VoIP app for calls
+
+### Status
+WiFi-only device. Not a daily driver if you need SIM or NFC.
+
+### Roadmap
+- V1.0: build.prop patch, WiFi-only
+- V1.5: + Nova Launcher + VoIP apps
+- No V1.1 / V1.4, next is V1.5
+
+### Credits
+- Novafusion / TeamCanjica
+- CM Team
+- Tester: Me (solo)
+
+### Warning
+BACKUP EFS BEFORE FLASHING! Flash at own risk.
+
+- **IMEI Status:** EFS folder NOT empty, nothing missing = IMEI is present, but not recognized in V1.0/V1.5 due to missing N libs
+- **Contribute / Bugs:** For stability bugs or contributions -> email: dedsec61@proton.me (free to email)
